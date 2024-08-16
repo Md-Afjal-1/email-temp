@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <title>Email Template</title>
+    <style>
+        body {
+            @font-face{
+                font-family: 'Osiris';
+                src: url('Osiris.woff2') format('woff2'),
+                url('Osiris.woff') format('woff');
+            }
+        }
+
+        table{
+            width: 100%;
+            max-width: 600px;
+            margin: 0 auto;
+            background-color: black;
+            height: auto;
+        }
+
+        .logo-section{
+            display: block;
+            justify-content: center;
+            text-align: center;
+            padding-top: 40px;
+        }
+
+        .logo-section img{
+            width: 100%;
+            max-width: 200px;
+            height: auto;
+        }
+
+        .heading-section h1{
+            text-align: center;
+            font-size: 42px;
+            padding: 40px;
+            font-family: 'Osiris';
+            font-weight: 400;
+            color: #F9F9F9;
+        }
+
+        .card-section{
+            width: 90%;
+            margin: 0 auto;
+            background-size: contain;
+            background-position: bottom;
+            background-repeat: no-repeat;
+            justify-content: center;
+        }
+
+        .card-section div{
+            width: 100%;
+            max-width: 165px;
+            background-color: #fff;
+            margin: 0 auto;
+            border-radius: 10px;
+            padding: 35px;
+            position: relative;
+            text-align: center;
+        }
+
+        .card-section img{
+            margin: 0 auto;
+            display: block;
+        }
+
+        .inspire{
+            text-align: center;
+            color: white;
+            margin-top: 20px;
+            font-size: 20px;
+            font-family: 'Osiris';
+        }
+
+        ul{
+            list-style: none;
+            text-align: center;
+            margin-bottom: 40px;
+            padding: 0;
+        }
+
+        ul li{
+            display: inline-block;
+            margin: 10px;
+        }
+
+        ul li a img{
+            height: 28px;
+            width: 28px;
+        }
+
+        .footer-img{
+            width: 100%;
+            height: auto;
+            margin-top: 20px;
+            max-height: 140px;
+        }
+
+        @media screen and (max-width: 600px){
+            .heading-section h1{
+                font-size: 32px;
+                padding: 20px;
+            }
+
+            .card-section div{
+                padding: 20px;
+            }
+
+            .inspire{
+                font-size: 18px;
+            }
+
+            ul{
+                margin-bottom: 50px;
+            }
+
+            .footer-img{
+                margin-top: 30px;
+                max-height: 120px;
+            }
+
+            .logo-section img{
+                max-width: 150px;
+            }
+        }
+
+        @media screen and (max-width: 472px){
+            .heading-section h1{
+                font-size: 28px;
+            }
+
+            .card-section div{
+                padding: 15px;
+            }
+
+            .inspire{
+                font-size: 16px !important;
+            }
+
+            .footer-img{
+                margin-top: 40px;
+                max-height: 100px;
+            }
+
+            .logo-section img{
+                max-width: 130px;
+            }
+        }
+
+        @media screen and (max-width: 360px){
+            .heading-section h1{
+                font-size: 24px;
+            }
+
+            .card-section div{
+                padding: 10px;
+            }
+
+            .inspire{
+                font-size: 14px !important;
+            }
+
+            ul li{
+                margin: 5px;
+            }
+
+            ul{
+                margin-bottom: 30px;
+            }
+
+            .footer-img{
+                margin-top: 50px;
+                max-height: 90px;
+            }
+
+            .logo-section img{
+                max-width: 110px;
+            }
+        }
+
+        @media screen and (max-width: 320px){
+            .heading-section h1{
+                font-size: 20px;
+            }
+
+            .card-section div{
+                padding: 8px;
+            }
+
+            .inspire{
+                font-size: 12px !important;
+            }
+
+            ul li{
+                margin: 3px;
+            }
+
+            ul{
+                margin-bottom: 20px;
+            }
+
+            .footer-img{
+                margin-top: 60px;
+                max-height: 80px;
+            }
+
+            .logo-section img{
+                max-width: 90px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <table class="content" width="600" border="0" cellspacing="0" cellpadding="0">
+        <tbody>
+            <tr>
+                <td class="logo-section">
+                    <img src="img/Telepathy-logo.png" alt="#" class="logo-img">
+                </td>
+            </tr>
+            
+            <tr class="heading-section">
+                <td>
+                    <h1 class="heading">HAPPY BIRTHDAY</h1>
+                </td>
+            </tr>
+
+            <tr class="card-section">
+                <td>
+                    <div>
+                        <img src="img/ballon.png" alt="Balloon Icon"
+                            style="position: absolute; top: -20px; left: 1%; transform: translateX(-50%); width: 40px;">
+                        <img src="img/user-image.png" alt="" style="margin: 0 auto; display: block;">
+                        <h2 style="font-family: Urbanist; font-weight: 600;">Jamie Thomas</h2>
+                        <p style="color: #838383; font-weight: bold; margin-top: -15px; font-family: Urbanist;">4 Year
+                            Anniversary</p>
+                        <img src="img/gift.png" alt="Gift Icon"
+                            style="position: absolute; bottom: -1px; left: 103%; transform: translateX(-50%); width: 40px;">
+                    </div>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <h3 class="inspire">Have a Spectacular day!</h3>
+                    <h4 style="color: #7F7F7F; text-align: center; font-size: 16px; font-family: 'Osiris';">We hope your
+                        next year is one of health and happiness</h4>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <ul>
+                        <h3 style="color: white; font-family: Urbanist; font-weight: 400;">We are on</h3>
+                        <div>
+                            <li><a href="#"><img src="img/facebook.png" alt=""></a></li>
+                            <li><a href="#"><img src="img/linkdin.png" alt=""></a></li>
+                            <li><a href="#"><img src="img/twitter.png" alt=""></a></li>
+                        </div>
+                    </ul>
+                </td>
+            </tr>
+            
+            <tr>
+                <td>
+                    <img src="img/footerbg.png" alt="#" class="footer-img">
+                </td>
+            </tr>
+
+        </tbody>
+
+    </table>
+
+</body>
+
+</html>
